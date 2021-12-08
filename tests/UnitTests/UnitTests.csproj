@@ -34,4 +34,5 @@
     <Folder Include="ApplicationCore\Helpers\" />
   </ItemGroup>
 
+  <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
 </Project>

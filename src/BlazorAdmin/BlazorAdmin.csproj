@@ -32,4 +32,5 @@
 		</Compile>
 	</ItemGroup>
 
+  <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
 </Project>

@@ -17,4 +17,6 @@
 	<ItemGroup>
 		<Folder Include="Data\Migrations\" />
 	</ItemGroup>
+
+  <ErrorOnDuplicatePublishOutputFiles>false</ErrorOnDuplicatePublishOutputFiles>
 </Project>
