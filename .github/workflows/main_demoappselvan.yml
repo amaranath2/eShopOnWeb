@@ -23,13 +23,13 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build ./eShopOnWeb.sln --configuration Development
+        run: dotnet build ./eShopOnWeb.sln --configuration debug
         
       - name: Test with dotnet
-        run: dotnet test ./eShopOnWeb.sln --configuration Development
+        run: dotnet test ./eShopOnWeb.sln --configuration debug
 
       - name: dotnet publish
-        run: dotnet publish ./eShopOnWeb.sln -c Development -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish ./eShopOnWeb.sln -c debug -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
